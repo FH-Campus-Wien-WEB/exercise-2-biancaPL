@@ -1,41 +1,64 @@
 @import url(base.css);
 
-h1 {
-  font-size: 200%;
-  margin: 8px 0px;
+body {
+  font-family: "Trebuchet MS", sans-serif;
+  margin: 20px;
+  background-color: white;
 }
 
-img {
-  border-radius: 12px;
+h1 {
+  font-weight: bold;
+  margin: 10px 0;
 }
 
 article {
-  background-color: lightgray;
-  border-radius: 16px;
-  padding: 16px;
-  margin: 2vw;
+  border: 6px solid rgb(212, 185, 123);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: rgb(255, 244, 225);
+}
+
+h3 {
+  color: #b60f0f;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  border: 8px solid #725b5b;
+  display: block;
+  margin-bottom: 10px;
 }
 
 span {
-  margin-right: 4px;
+  margin-right: 5px;
 }
 
 .genre {
-  padding: 4px 8px;
-  border: solid black 1px;
+  background-color: #770b0b;
+  color: rgb(255, 255, 255);
+  padding: 6px 12px;
+  border-radius: 9px;
+  font-size: 16px;
+  display: inline-block;
+  border: 4px solid #d4b97b;
+}
+
+ul {
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 12px;
   border-radius: 6px;
-  background-color: darkgray;
-  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: #770b0b;
+  color: white;
 }
 
-input {
-  width: 100%;
-}
-
-select {
-  width: 100%;
-}
-
-textarea {
-  width: 100%;
-}
